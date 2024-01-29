@@ -8,4 +8,8 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: test more lines
+        run: |
+          echo "First handson workflow"
+          echo "Second test"
       
